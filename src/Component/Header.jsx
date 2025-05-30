@@ -240,7 +240,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md">
       <div className="flex flex-col items-center justify-center">
-        <nav className="flex justify-between items-center px-10 py-5 w-[95%] bg-[rgba(0,0,0,0.09)] mx-auto fixed top-0 left-0 right-0 z-50 backdrop-blur-md">
+        <nav className="flex justify-between items-center px-10 py-5 w-full bg-[rgba(0,0,0,0.09)] mx-auto fixed top-0 left-0 right-0 z-50 backdrop-blur-md">
           <div>
             <h1 className="text-xl font-medium text-green-900">
               AGRI<span className="text-green-900">HUB</span>

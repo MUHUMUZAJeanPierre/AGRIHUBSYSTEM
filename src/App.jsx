@@ -68,7 +68,7 @@ const App = () => {
           
             <Route path="" element={<BuyerLayout />}>
               <Route path="" element={<BLandingPage />} />
-              <Route path="allorder" element={<AllOrder />} />
+              <Route path="allorders" element={<AllOrder />} />
               <Route
                 path="create/:productId/:NameOfProduct"
                 element={<CreateOrder />}
